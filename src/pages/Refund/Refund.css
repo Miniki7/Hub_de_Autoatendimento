@@ -1,0 +1,170 @@
+.rf-container {
+  min-height: 100vh;
+  background: #1C2B36;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.rf-main {
+  padding: 2rem 2.5rem;
+}
+
+.rf-voltar {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.rf-center {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.rf-header {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #2E4555;
+}
+
+.rf-titulo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #c8d8e4;
+  margin: 0 0 0.2rem;
+}
+
+.rf-sub {
+  font-size: 0.83rem;
+  color: #4A7FA5;
+  margin: 0;
+}
+
+.rf-card {
+  background: #162330;
+  border: 1px solid #2E4555;
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+
+.rf-produto-nome {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c8d8e4;
+  margin: 0 0 0.35rem;
+}
+
+.rf-produto-desc {
+  font-size: 0.82rem;
+  color: #4A7FA5;
+  margin: 0 0 1.2rem;
+  line-height: 1.5;
+}
+
+.rf-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.rf-table tr {
+  border-top: 1px solid #2E4555;
+}
+
+.rf-table td {
+  padding: 0.6rem 0;
+  vertical-align: middle;
+}
+
+.rf-table_label {
+  color: #4A7FA5;
+  width: 40%;
+}
+
+.rf-table_valor {
+  color: #c8d8e4;
+  font-weight: 600;
+}
+
+.status {
+  display: inline-block;
+  font-size: 0.73rem;
+  font-weight: 600;
+  padding: 0.22rem 0.65rem;
+  border-radius: 20px;
+}
+
+.status--entregue {
+  background: #0f2e20;
+  color: #4caf86;
+  border: 1px solid #1a5c3a;
+}
+
+.rf-aviso {
+  font-size: 0.81rem;
+  color: #4A7FA5;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.rf-sucesso {
+  max-width: 500px;
+  margin: 4rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.rf-sucesso_icone {
+  font-size: 2.5rem;
+}
+
+.rf-sucesso h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #c8d8e4;
+  margin: 0;
+}
+
+.rf-sucesso p {
+  font-size: 0.9rem;
+  color: #4A7FA5;
+  margin: 0;
+}
+
+.rf-sucesso strong {
+  color: #5AACB8;
+}
+
+.rf-btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.rf-btn-prim {
+  width: 100%;
+  background: #2E6A8E;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.rf-btn-ghost {
+  background: transparent;
+  color: #4A7FA5;
+  border: 1px solid #2E4555;
+  padding: 0.38rem 0.85rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+}

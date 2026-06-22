@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2.5rem;
+  height: 58px;
+  background: #162330;
+  border-bottom: 1px solid #2E4555;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.navbar_logo {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #5AACB8;
+  letter-spacing: 0.12em;
+  margin-right: auto;
+}
+
+.navbar_usuario {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar_label {
+  font-size: 0.78rem;
+  color: #4A7FA5;
+}
+
+.navbar_select {
+  background: #1C2B36;
+  border: 1px solid #2E4555;
+  border-radius: 6px;
+  color: #c8d8e4;
+  font-size: 0.83rem;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+}
+
+.navbar_select:focus {
+  border-color: #4A7FA5;
+}
+
+.navbar_perfil {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #2E4555;
+}
+
+.navbar_avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2E6A8E;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navbar_nome {
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: #c8d8e4;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.navbar_saldo {
+  font-size: 0.74rem;
+  color: #5AACB8;
+  margin: 0;
+}
